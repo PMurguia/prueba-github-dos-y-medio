@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Saludo from "./Saludo";
+import Alberto from "./Alberto";
 import "./App.css";
 import Angie from "./angie";
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Saludo />
+      <Alberto />
       <Angie />
       <div>
         <a href="https://vitejs.dev" target="_blank">
