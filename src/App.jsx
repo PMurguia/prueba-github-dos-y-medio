@@ -1,8 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import Saludo from "./Saludo";
-import "./App.css";
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import Saludo from './Saludo'
+import './App.css'
+import Saioa from './Saioa'
 import Angie from "./angie";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Saludo />
+      <Saioa />
       <Angie />
       <div>
         <a href="https://vitejs.dev" target="_blank">
