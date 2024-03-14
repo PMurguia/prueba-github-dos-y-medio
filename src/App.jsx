@@ -1,19 +1,23 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import Saludo from "./Saludo";
 import "./App.css";
-import Brian from './Brian'
+import { useState } from "react";
+import Miguel from "./Miguel";
+import Saioa from "./Saioa";
 import Angie from "./angie";
+import Brian from "./Brian";
+import Alberto from "./Alberto";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-    <Saludo />
-    <Brian/>
-    <Angie />
+      <Saludo />
+      <Brian />
+      <Alberto />
+      <Angie />
+      <Saioa />
+      <Miguel />
+      <Alberto />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
