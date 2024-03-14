@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Saludo from './Saludo'
 import './App.css'
 import Saioa from './Saioa'
+import Miguel from './Miguel'
 import Angie from "./angie";
 
 function App() {
@@ -11,9 +12,12 @@ function App() {
 
   return (
     <>
-      <Saludo />
+     
       <Saioa />
-      <Angie />
+   
+    <Saludo />
+    <Miguel />
+    <Angie />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
