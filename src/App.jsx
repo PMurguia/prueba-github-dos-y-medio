@@ -4,6 +4,9 @@ import viteLogo from "/vite.svg";
 import Saludo from "./Saludo";
 import Alberto from "./Alberto";
 import "./App.css";
+import { useState } from "react";
+import Miguel from "./Miguel";
+import Saioa from "./Saioa";
 import Angie from "./angie";
 
 function App() {
@@ -14,6 +17,10 @@ function App() {
       <Saludo />
       <Alberto />
       <Angie />
+      <Miguel />
+      <Saioa />
+      <Miguel />
+
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
