@@ -17,7 +17,6 @@ function App() {
       <Saludo />
       <Alberto />
       <Angie />
-      <Miguel />
       <Saioa />
       <Miguel />
 
