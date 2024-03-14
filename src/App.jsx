@@ -1,5 +1,9 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import Saludo from './Saludo'
+import Jondenis from './jondenis'
 import "./App.css";
-import { useState } from "react";
 import Miguel from "./Miguel";
 import Saioa from "./Saioa";
 import Angie from "./angie";
@@ -12,6 +16,7 @@ function App() {
   return (
     <>
       <Saludo />
+      <Jondenis/>
       <Brian />
       <Alberto />
       <Angie />
