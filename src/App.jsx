@@ -13,9 +13,10 @@ function App() {
     <>
       <Saludo />
       <Brian />
+      <Alberto />
+      <Angie />
       <Saioa />
       <Miguel />
-      <Angie />
       <Alberto />
       <div>
         <a href="https://vitejs.dev" target="_blank">
